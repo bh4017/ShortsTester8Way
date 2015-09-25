@@ -1,0 +1,753 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:V_adc_dac
+LIBS:V_Battery
+LIBS:V_Connector
+LIBS:V_Diode
+LIBS:V_Linear
+LIBS:V_Logic
+LIBS:V_Microcontroller
+LIBS:V_Passive
+LIBS:V_Regulator
+LIBS:V_Relay
+LIBS:V_Transistor
+LIBS:4000series-BJH
+LIBS:Basics-BJH
+LIBS:buzzer
+LIBS:Connectors-BJH
+LIBS:Devices-BJH
+LIBS:LCD-BJH
+LIBS:Microchip-BJH
+LIBS:Opto-BJH
+LIBS:Oscillators-BJH
+LIBS:PowerSymbols-BJH
+LIBS:Relays
+LIBS:Transistors-BJH
+LIBS:OpAmps-BJH
+LIBS:J1-ShortsTest-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ATV J1 Shorts Tester"
+Date "22 September 2015"
+Rev ""
+Comp "KSR Electronic Systems"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_8 J1
+U 1 1 56013108
+P 900 1300
+F 0 "J1" H 700 2125 50  0000 L CNN
+F 1 "CONN_8" H 700 2025 50  0000 L CNN
+F 2 "SIP8" H 900 1300 50  0001 C CNN
+F 3 "" H 900 1300 60  0000 C CNN
+	1    900  1300
+	-1   0    0    1   
+$EndComp
+Text GLabel 1300 1850 2    60   Input ~ 0
+J1_1
+Text GLabel 1300 1700 2    60   Input ~ 0
+J1_2
+Text GLabel 1300 1550 2    60   Input ~ 0
+J1_3
+Text GLabel 1300 1400 2    60   Input ~ 0
+J1_4
+Text GLabel 1300 1250 2    60   Input ~ 0
+J1_5
+Text GLabel 1300 1100 2    60   Input ~ 0
+J1_6
+Text GLabel 1300 950  2    60   Input ~ 0
+J1_7
+Text GLabel 1300 800  2    60   Input ~ 0
+J1_8
+$Comp
+L +5V #PWR9
+U 1 1 56013383
+P 10400 600
+F 0 "#PWR9" H 10400 450 60  0001 C CNN
+F 1 "+5V" H 10400 740 60  0000 C CNN
+F 2 "" H 10400 600 60  0000 C CNN
+F 3 "" H 10400 600 60  0000 C CNN
+	1    10400 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR10
+U 1 1 560133A5
+P 10400 1250
+F 0 "#PWR10" H 10400 1000 60  0001 C CNN
+F 1 "GND" H 10400 1100 60  0000 C CNN
+F 2 "" H 10400 1250 60  0000 C CNN
+F 3 "" H 10400 1250 60  0000 C CNN
+	1    10400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 J2
+U 1 1 560133CD
+P 10800 850
+F 0 "J2" H 10600 1225 50  0000 L CNN
+F 1 "CONN_2" H 10600 1125 50  0000 L CNN
+F 2 "SIP2" H 10800 850 50  0001 C CNN
+F 3 "" H 10800 850 60  0000 C CNN
+	1    10800 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 4700 2    50   Output ~ 0
+J1_2
+Text GLabel 6300 4800 2    50   Output ~ 0
+J1_3
+Text GLabel 6300 4900 2    50   Output ~ 0
+J1_4
+Text GLabel 6300 5000 2    50   Output ~ 0
+J1_5
+Text GLabel 6300 5100 2    50   Output ~ 0
+J1_6
+Text GLabel 6300 5200 2    50   Output ~ 0
+J1_7
+Text GLabel 6300 5300 2    50   Output ~ 0
+J1_8
+Text GLabel 4800 4900 0    50   Input ~ 0
+1mA_ConstCurrent
+Text GLabel 4800 5100 0    50   Input ~ 0
+SEL_A
+Text GLabel 4800 5200 0    50   Input ~ 0
+SEL_B
+Text GLabel 4800 5300 0    50   Input ~ 0
+SEL_C
+Text GLabel 5400 5850 0    60   Input ~ 0
+RESET
+$Comp
+L 4000series-4051 U6
+U 1 1 56018768
+P 5550 4950
+F 0 "U6" H 5200 5450 60  0000 L CNN
+F 1 "4000series-4051" H 5200 5550 60  0001 L CNN
+F 2 "DIP16" H 5550 4900 60  0001 C CNN
+F 3 "" H 5750 4900 60  0000 C CNN
+F 4 "4051" H 5350 5300 60  0000 C CNN "Device"
+	1    5550 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 6450 2    50   Output ~ 0
+J1_1
+Text GLabel 6300 6550 2    50   Output ~ 0
+J1_2
+Text GLabel 6300 6650 2    50   Output ~ 0
+J1_3
+Text GLabel 6300 6750 2    50   Output ~ 0
+J1_4
+Text GLabel 6300 6850 2    50   Output ~ 0
+J1_5
+Text GLabel 6300 6950 2    50   Output ~ 0
+J1_6
+Text GLabel 6300 7050 2    50   Output ~ 0
+J1_7
+Text GLabel 4800 6850 0    50   Input ~ 0
+SEL_A
+Text GLabel 4800 6950 0    50   Input ~ 0
+SEL_B
+Text GLabel 4800 7050 0    50   Input ~ 0
+SEL_C
+$Comp
+L 4000series-4051 U7
+U 1 1 56018EBC
+P 5550 6700
+F 0 "U7" H 5200 7200 60  0000 L CNN
+F 1 "4000series-4051" H 5200 7300 60  0001 L CNN
+F 2 "DIP16" H 5550 6650 60  0001 C CNN
+F 3 "" H 5750 6650 60  0000 C CNN
+F 4 "4051" H 5350 7050 60  0000 C CNN "Device"
+	1    5550 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 5601907F
+P 4350 6900
+F 0 "#PWR7" H 4350 6650 60  0001 C CNN
+F 1 "GND" H 4350 6750 60  0000 C CNN
+F 2 "" H 4350 6900 60  0000 C CNN
+F 3 "" H 4350 6900 60  0000 C CNN
+	1    4350 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_0.25 R6
+U 1 1 56019141
+P 6900 5800
+F 0 "R6" H 6750 5800 50  0000 L CNN
+F 1 "10K" V 6900 5750 50  0000 L CNN
+F 2 "AX3_1N" H 6900 5800 50  0001 C CNN
+F 3 "" H 6900 5800 60  0000 C CNN
+	1    6900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_0.25 R2
+U 1 1 5602486A
+P 1100 7300
+F 0 "R2" H 950 7300 50  0000 L CNN
+F 1 "5K" V 1100 7250 50  0000 L CNN
+F 2 "AX3_1N" H 1100 7300 50  0001 C CNN
+F 3 "" H 1100 7300 60  0000 C CNN
+	1    1100 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR_0.25 R4
+U 1 1 56024A2A
+P 2150 7300
+F 0 "R4" H 2000 7300 50  0000 L CNN
+F 1 "5K" V 2150 7250 50  0000 L CNN
+F 2 "AX3_1N" H 2150 7300 50  0001 C CNN
+F 3 "" H 2150 7300 60  0000 C CNN
+	1    2150 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR_0.25 R1
+U 1 1 56024B9F
+P 1100 6250
+F 0 "R1" H 950 6250 50  0000 L CNN
+F 1 "5K" V 1100 6200 50  0000 L CNN
+F 2 "AX3_1N" H 1100 6250 50  0001 C CNN
+F 3 "" H 1100 6250 60  0000 C CNN
+	1    1100 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR_0.25 R3
+U 1 1 56024BEC
+P 2100 6250
+F 0 "R3" H 1950 6250 50  0000 L CNN
+F 1 "5K" V 2100 6200 50  0000 L CNN
+F 2 "AX3_1N" H 2100 6250 50  0001 C CNN
+F 3 "" H 2100 6250 60  0000 C CNN
+	1    2100 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 56024DB3
+P 750 7450
+F 0 "#PWR2" H 750 7200 60  0001 C CNN
+F 1 "GND" H 750 7300 60  0000 C CNN
+F 2 "" H 750 7450 60  0000 C CNN
+F 3 "" H 750 7450 60  0000 C CNN
+	1    750  7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR1
+U 1 1 56024EE6
+P 750 6100
+F 0 "#PWR1" H 750 5950 60  0001 C CNN
+F 1 "+5V" H 750 6240 60  0000 C CNN
+F 2 "" H 750 6100 60  0000 C CNN
+F 3 "" H 750 6100 60  0000 C CNN
+	1    750  6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 5900 2    60   Output ~ 0
+1mA_ConstCurrent
+Text GLabel 5150 4250 0    60   Input ~ 0
+RESET
+$Comp
+L CONN_01X01 P3
+U 1 1 56026889
+P 11000 3050
+F 0 "P3" H 11000 3150 50  0000 C CNN
+F 1 "RESET" V 11100 3050 50  0000 C CNN
+F 2 "" H 11000 3050 60  0000 C CNN
+F 3 "" H 11000 3050 60  0000 C CNN
+	1    11000 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 3050 0    60   Output ~ 0
+RESET
+$Comp
+L CONN_01X01 P2
+U 1 1 56026D24
+P 11000 2600
+F 0 "P2" H 11000 2700 50  0000 C CNN
+F 1 "CLOCK" V 11100 2600 50  0000 C CNN
+F 2 "" H 11000 2600 60  0000 C CNN
+F 3 "" H 11000 2600 60  0000 C CNN
+	1    11000 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 2600 0    60   Output ~ 0
+CLOCK
+Text GLabel 4700 3000 0    50   Input ~ 0
+CLOCK
+NoConn ~ 6200 3350
+Text GLabel 6300 3050 2    50   Output ~ 0
+SEL_A
+Text GLabel 6300 3150 2    50   Output ~ 0
+SEL_B
+Text GLabel 6300 3250 2    50   Output ~ 0
+SEL_C
+$Comp
+L CONN_01X01 P1
+U 1 1 56028C03
+P 11000 2150
+F 0 "P1" H 11000 2250 50  0000 C CNN
+F 1 "PASS/FAIL" V 11100 2150 50  0000 C CNN
+F 2 "" H 11000 2150 60  0000 C CNN
+F 3 "" H 11000 2150 60  0000 C CNN
+	1    11000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comp-LM339 U2
+U 1 1 56026362
+P 2250 3900
+F 0 "U2" V 2200 3900 60  0000 C CNN
+F 1 "Comp-LM339" H 2250 4200 60  0001 C CNN
+F 2 "" H 2200 3900 60  0000 C CNN
+F 3 "" H 2200 3900 60  0000 C CNN
+F 4 "LM339" H 2400 4100 60  0000 C CNN "Device"
+	1    2250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comp-LM339 U2
+U 2 1 56026392
+P 2250 4900
+F 0 "U2" V 2200 4900 60  0000 C CNN
+F 1 "Comp-LM339" H 2250 5200 60  0001 C CNN
+F 2 "" H 2200 4900 60  0000 C CNN
+F 3 "" H 2200 4900 60  0000 C CNN
+F 4 "LM339" H 2400 5100 60  0000 C CNN "Device"
+	2    2250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR3
+U 1 1 560264F8
+P 1950 2550
+F 0 "#PWR3" H 1950 2400 60  0001 C CNN
+F 1 "+5V" H 1950 2690 60  0000 C CNN
+F 2 "" H 1950 2550 60  0000 C CNN
+F 3 "" H 1950 2550 60  0000 C CNN
+	1    1950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 56026ADB
+P 1950 3300
+F 0 "#PWR4" H 1950 3050 60  0001 C CNN
+F 1 "GND" H 1950 3150 60  0000 C CNN
+F 2 "" H 1950 3300 60  0000 C CNN
+F 3 "" H 1950 3300 60  0000 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 2950 2    60   Output ~ 0
+VrefHi
+Text GLabel 1550 2950 0    60   Output ~ 0
+VrefLo
+Text GLabel 1450 5000 0    60   Input ~ 0
+VrefLo
+Text GLabel 1450 3800 0    60   Input ~ 0
+VrefHi
+$Comp
+L R R5
+U 1 1 5602730E
+P 3000 3450
+F 0 "R5" V 3080 3450 50  0000 C CNN
+F 1 "10K" V 3007 3451 50  0000 C CNN
+F 2 "" V 2930 3450 30  0000 C CNN
+F 3 "" H 3000 3450 30  0000 C CNN
+	1    3000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR5
+U 1 1 5602741C
+P 3000 3100
+F 0 "#PWR5" H 3000 2950 60  0001 C CNN
+F 1 "+5V" H 3000 3240 60  0000 C CNN
+F 2 "" H 3000 3100 60  0000 C CNN
+F 3 "" H 3000 3100 60  0000 C CNN
+	1    3000 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 4400 0    60   Input ~ 0
+1mA_ConstCurrent
+Text GLabel 3100 3900 2    60   Output ~ 0
+COMPARE_OUT
+$Comp
+L 4000series-4094 U4
+U 1 1 5602871B
+P 5000 1450
+F 0 "U4" H 4650 1950 60  0000 L CNN
+F 1 "4000series-4094" H 4650 2050 60  0001 L CNN
+F 2 "DIP16" H 5000 1400 60  0001 C CNN
+F 3 "" H 5200 1400 60  0000 C CNN
+F 4 "4094" H 5000 1450 60  0000 C CNN "Device"
+	1    5000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4000series-4068 U8
+U 1 1 56028965
+P 6350 1450
+F 0 "U8" V 6200 1450 60  0000 C CNN
+F 1 "4000series-4068" H 6350 1750 60  0001 C CNN
+F 2 "DIP14" H 6300 1450 60  0001 C CNN
+F 3 "" H 6300 1450 60  0000 C CNN
+F 4 "4068" V 6100 1450 60  0000 C CNN "Device"
+	1    6350 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 1100 0    60   Input ~ 0
+COMPARE_OUT
+$Comp
+L 4000series-4011 U3
+U 1 1 5602924C
+P 3650 1450
+F 0 "U3" V 3500 1450 60  0000 C CNN
+F 1 "4000series-4011" H 3650 1750 60  0001 C CNN
+F 2 "" H 3600 1450 60  0000 C CNN
+F 3 "" H 3600 1450 60  0000 C CNN
+F 4 "4011" V 3400 1450 60  0000 C CNN "Device"
+	1    3650 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 1450 0    60   Input ~ 0
+CLOCK
+Text GLabel 7300 1250 2    60   Output ~ 0
+PASS/FAIL
+Text GLabel 10450 2150 0    60   Input ~ 0
+PASS/FAIL
+$Comp
+L POT RV1
+U 1 1 5602A524
+P 1800 2950
+F 0 "RV1" H 1800 2850 50  0000 C CNN
+F 1 "POT" H 1800 2950 50  0000 C CNN
+F 2 "" H 1800 2950 60  0000 C CNN
+F 3 "" H 1800 2950 60  0000 C CNN
+	1    1800 2950
+	0    -1   1    0   
+$EndComp
+$Comp
+L POT RV2
+U 1 1 5602A5C2
+P 2100 2950
+F 0 "RV2" H 2100 2850 50  0000 C CNN
+F 1 "POT" H 2100 2950 50  0000 C CNN
+F 2 "" H 2100 2950 60  0000 C CNN
+F 3 "" H 2100 2950 60  0000 C CNN
+	1    2100 2950
+	0    1    1    0   
+$EndComp
+Text GLabel 4150 2300 0    60   Input ~ 0
+RESET
+Text Notes 2800 2600 0    60   ~ 0
+When 8 clock cycles\nfinish, DAQ triggers\nRESET to go high.\nA high on STR/OE\nplaces the result on\nthe output which\nis evaluated by the\nAND gate and\npresented to PASS/FAIL
+$Comp
+L OpAmp-TLV2374 U1
+U 1 1 5602B320
+P 2150 6700
+F 0 "U1" V 2100 6700 60  0000 C CNN
+F 1 "OpAmp-TLV2374" H 2150 7000 60  0001 C CNN
+F 2 "" H 2100 6700 60  0000 C CNN
+F 3 "" H 2100 6700 60  0000 C CNN
+F 4 "TLV2374" H 2300 6900 60  0000 C CNN "Device"
+	1    2150 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 7600 0    60   Input ~ 0
+RESET
+Text Notes 4150 5950 0    60   ~ 0
+In the RESET condition\nMUX is inhibited so\nIN/OUT are high\nimpedance
+Text Notes 3950 4250 0    60   ~ 0
+The RESET condition\nsets binary counter\nback to 0000
+Wire Wire Line
+	1300 800  1100 800 
+Wire Wire Line
+	1300 950  1100 950 
+Wire Wire Line
+	1300 1100 1100 1100
+Wire Wire Line
+	1300 1250 1100 1250
+Wire Wire Line
+	1100 1400 1300 1400
+Wire Wire Line
+	1300 1550 1100 1550
+Wire Wire Line
+	1100 1700 1300 1700
+Wire Wire Line
+	1300 1850 1100 1850
+Wire Wire Line
+	10400 600  10400 750 
+Wire Wire Line
+	10400 750  10600 750 
+Wire Wire Line
+	10400 1250 10400 900 
+Wire Wire Line
+	10400 900  10600 900 
+Wire Wire Line
+	5400 5850 5550 5850
+Wire Wire Line
+	5550 5850 5550 5700
+Wire Wire Line
+	4800 4900 4900 4900
+Wire Wire Line
+	4900 5100 4800 5100
+Wire Wire Line
+	4800 5200 4900 5200
+Wire Wire Line
+	4900 5300 4800 5300
+Wire Wire Line
+	6200 4700 6300 4700
+Wire Wire Line
+	6300 4800 6200 4800
+Wire Wire Line
+	6200 4900 6300 4900
+Wire Wire Line
+	6300 5000 6200 5000
+Wire Wire Line
+	6200 5100 6300 5100
+Wire Wire Line
+	6300 5200 6200 5200
+Wire Wire Line
+	6200 5300 6300 5300
+Wire Wire Line
+	5400 7600 5550 7600
+Wire Wire Line
+	5550 7600 5550 7450
+Wire Wire Line
+	4350 6650 4900 6650
+Wire Wire Line
+	4900 6850 4800 6850
+Wire Wire Line
+	4800 6950 4900 6950
+Wire Wire Line
+	4900 7050 4800 7050
+Wire Wire Line
+	6200 6450 6300 6450
+Wire Wire Line
+	6300 6550 6200 6550
+Wire Wire Line
+	6200 6650 6300 6650
+Wire Wire Line
+	6300 6750 6200 6750
+Wire Wire Line
+	6200 6850 6300 6850
+Wire Wire Line
+	6300 6950 6200 6950
+Wire Wire Line
+	6200 7050 6300 7050
+Wire Wire Line
+	4350 6900 4350 6650
+Wire Wire Line
+	6900 5550 6900 4600
+Wire Wire Line
+	6900 4600 6200 4600
+Wire Wire Line
+	6900 6050 6900 6350
+Wire Wire Line
+	6900 6350 6200 6350
+Wire Wire Line
+	1350 7300 1900 7300
+Wire Wire Line
+	1550 6800 1500 6800
+Wire Wire Line
+	1500 6800 1500 7300
+Connection ~ 1500 7300
+Wire Wire Line
+	2400 7300 2900 7300
+Wire Wire Line
+	2900 7300 2900 6250
+Wire Wire Line
+	1350 6250 1850 6250
+Wire Wire Line
+	1500 6600 1550 6600
+Wire Wire Line
+	1500 5900 1500 6600
+Connection ~ 1500 6250
+Wire Wire Line
+	2900 6250 2350 6250
+Wire Wire Line
+	750  7450 750  7300
+Wire Wire Line
+	750  7300 850  7300
+Wire Wire Line
+	750  6100 750  6250
+Wire Wire Line
+	750  6250 850  6250
+Wire Wire Line
+	5550 4250 5150 4250
+Wire Wire Line
+	5550 4100 5550 4250
+Wire Wire Line
+	10450 3050 10800 3050
+Wire Wire Line
+	10450 2600 10800 2600
+Wire Wire Line
+	4700 3000 4900 3000
+Wire Wire Line
+	6300 3250 6200 3250
+Wire Wire Line
+	6200 3150 6300 3150
+Wire Wire Line
+	6300 3050 6200 3050
+Wire Wire Line
+	1800 2700 1800 2650
+Wire Wire Line
+	1800 2650 2100 2650
+Wire Wire Line
+	2100 2650 2100 2700
+Wire Wire Line
+	1950 2550 1950 2650
+Connection ~ 1950 2650
+Wire Wire Line
+	1800 3200 1800 3250
+Wire Wire Line
+	1800 3250 2100 3250
+Wire Wire Line
+	2100 3250 2100 3200
+Wire Wire Line
+	1950 3300 1950 3250
+Connection ~ 1950 3250
+Wire Wire Line
+	1650 4000 1550 4000
+Wire Wire Line
+	1550 4000 1550 4800
+Wire Wire Line
+	1550 4800 1650 4800
+Wire Wire Line
+	1450 5000 1650 5000
+Wire Wire Line
+	1450 3800 1650 3800
+Wire Wire Line
+	1400 4400 1550 4400
+Connection ~ 1550 4400
+Wire Wire Line
+	3000 4900 2850 4900
+Wire Wire Line
+	3000 3700 3000 4900
+Wire Wire Line
+	2850 3900 3100 3900
+Connection ~ 3000 3900
+Wire Wire Line
+	3000 3100 3000 3200
+Wire Wire Line
+	5750 1100 5650 1100
+Wire Wire Line
+	5650 1200 5750 1200
+Wire Wire Line
+	5750 1300 5650 1300
+Wire Wire Line
+	5650 1400 5750 1400
+Wire Wire Line
+	5750 1500 5650 1500
+Wire Wire Line
+	5650 1600 5750 1600
+Wire Wire Line
+	5750 1700 5650 1700
+Wire Wire Line
+	5650 1800 5750 1800
+Wire Wire Line
+	4100 1100 4350 1100
+Wire Wire Line
+	4250 1450 4350 1450
+Wire Wire Line
+	3050 1350 2950 1350
+Wire Wire Line
+	2950 1350 2950 1550
+Wire Wire Line
+	2950 1550 3050 1550
+Wire Wire Line
+	2800 1450 2950 1450
+Connection ~ 2950 1450
+Wire Wire Line
+	7300 1250 7150 1250
+Wire Wire Line
+	10450 2150 10800 2150
+Wire Wire Line
+	1550 2950 1650 2950
+Wire Wire Line
+	2350 2950 2250 2950
+Wire Wire Line
+	4350 1800 4250 1800
+Wire Wire Line
+	4250 1800 4250 2300
+Wire Wire Line
+	4150 2300 5000 2300
+Wire Wire Line
+	5000 2300 5000 2200
+Connection ~ 4250 2300
+Wire Wire Line
+	2750 6700 2900 6700
+Connection ~ 2900 6700
+Wire Wire Line
+	1650 5900 1500 5900
+$Comp
+L 4000series-4051 U?
+U 2 1 560532B6
+P 7850 5900
+F 0 "U?" H 7500 6400 60  0000 L CNN
+F 1 "4000series-4051" H 7500 6500 60  0001 L CNN
+F 2 "DIP16" H 7850 5850 60  0001 C CNN
+F 3 "" H 8050 5850 60  0000 C CNN
+F 4 "4051" H 7650 6250 60  0000 C CNN "Device"
+	2    7850 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 3450
+NoConn ~ 6200 3550
+NoConn ~ 6200 3650
+$Comp
+L 4000series-4024 U?
+U 1 1 56054928
+P 5550 3350
+F 0 "U?" H 5200 3850 60  0000 L CNN
+F 1 "4000series-4024" H 5200 3950 60  0001 L CNN
+F 2 "DIP14" H 5550 3300 60  0001 C CNN
+F 3 "" H 5750 3300 60  0000 C CNN
+F 4 "4024" H 5550 3300 60  0000 C CNN "Device"
+	1    5550 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
