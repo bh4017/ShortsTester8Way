@@ -1,4 +1,4 @@
-update=23/09/2015 11:23:48
+update=Sun 27 Sep 2015 14:58:48 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../../../../Program Files (x86)/VeeCAD/Library/Kicad;../../../github/hoskinstech/bjh-kicad-schematic-library
@@ -81,8 +83,18 @@ LibName51=C:/Users/bhoskins/github/hoskinstech/bjh-kicad-schematic-library/Power
 LibName52=C:/Users/bhoskins/github/hoskinstech/bjh-kicad-schematic-library/Relays
 LibName53=C:/Users/bhoskins/github/hoskinstech/bjh-kicad-schematic-library/Transistors-BJH
 LibName54=OpAmps-BJH
-[general]
-version=1
+LibName55=4000series-BJH
+LibName56=Basics-BJH
+LibName57=buzzer
+LibName58=Connectors-BJH
+LibName59=Devices-BJH
+LibName60=LCD-BJH
+LibName61=Microchip-BJH
+LibName62=Opto-BJH
+LibName63=Oscillators-BJH
+LibName64=PowerSymbols-BJH
+LibName65=Relays
+LibName66=Transistors-BJH
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -92,7 +104,4 @@ SubpartFirstId=65
 NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
 LabSize=60
