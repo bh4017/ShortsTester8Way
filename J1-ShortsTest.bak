@@ -80,10 +80,4 @@ U 56065F32
 F0 "CIRCUIT" 157
 F1 "circuit.sch" 60
 $EndSheet
-$Sheet
-S 6350 1500 1900 1500
-U 560CA893
-F0 "Sheet560CA892" 60
-F1 "file560CA892.sch" 60
-$EndSheet
 $EndSCHEMATC

@@ -1,0 +1,381 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 02/10/2015 16:25:14
+
+BeginCmp
+TimeStamp = /56065F32/56068A6C;
+Reference = 10n1;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606A828;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606ABD3;
+Reference = C2;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/56067B91;
+Reference = C3;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/56067BFB;
+Reference = C4;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B190F;
+Reference = C5;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B197F;
+Reference = C6;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B19E4;
+Reference = C7;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B1A4C;
+Reference = C8;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B1AC1;
+Reference = C9;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B1B39;
+Reference = C10;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560BEF46;
+Reference = C11;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L6_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606A945;
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BB15C;
+Reference = D2;
+ValeurCmp = ZENER;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/56067055;
+Reference = J1;
+ValeurCmp = CONN_8;
+IdModule  = connector-bjh:HEAD-1row-2.54mm-8way;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560AEDD3;
+Reference = J2;
+ValeurCmp = PASS_LED;
+IdModule  = connector-bjh:HEAD-1row-2.54mm-2way;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560AEC68;
+Reference = J3;
+ValeurCmp = FAIL_LED;
+IdModule  = connector-bjh:HEAD-1row-2.54mm-2way;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560679B5;
+Reference = J4;
+ValeurCmp = BATTERY;
+IdModule  = connector-bjh:HEAD-1row-2.54mm-2way;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BD708;
+Reference = J5;
+ValeurCmp = BATT_LOW;
+IdModule  = connector-bjh:HEAD-1row-2.54mm-2way;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560670D6;
+Reference = P1;
+ValeurCmp = PASS/FAIL;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560670C1;
+Reference = P2;
+ValeurCmp = RESET;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560AE24A;
+Reference = Q1;
+ValeurCmp = FET-2N7000;
+IdModule  = Housings_TO-92:TO-92_Inline_Wide;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560AE38B;
+Reference = Q2;
+ValeurCmp = FET-2N7000;
+IdModule  = Housings_TO-92:TO-92_Inline_Wide;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606B30E;
+Reference = Q3;
+ValeurCmp = FET-2N7000;
+IdModule  = Housings_TO-92:TO-92_Inline_Wide;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BD57B;
+Reference = Q4;
+ValeurCmp = FET-2N7000;
+IdModule  = Housings_TO-92:TO-92_Inline_Wide;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560C6044;
+Reference = R1;
+ValeurCmp = 3K9;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560C63B3;
+Reference = R2;
+ValeurCmp = 3K9;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560C641A;
+Reference = R3;
+ValeurCmp = 3K9;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560C6490;
+Reference = R4;
+ValeurCmp = 3K9;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560670FD;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/56067090;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606C998;
+Reference = R7;
+ValeurCmp = 6K8;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606CA0D;
+Reference = R8;
+ValeurCmp = 6K8;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560AE652;
+Reference = R9;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560AE72D;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606B9FF;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/56068802;
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BBA2E;
+Reference = R13;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BBA71;
+Reference = R14;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BB471;
+Reference = R15;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BADBB;
+Reference = R16;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560BD5D7;
+Reference = R17;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/560AD9A7;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/56067128;
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F32/5606712F;
+Reference = RV3;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B0224;
+Reference = U1;
+ValeurCmp = OpAmp-TLV2374;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B0348;
+Reference = U2;
+ValeurCmp = Comp-LM339;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B0466;
+Reference = U3;
+ValeurCmp = 4000series-4094;
+IdModule  = Sockets_DIP:DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B04B4;
+Reference = U4;
+ValeurCmp = 4000series-4024;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B05E8;
+Reference = U5;
+ValeurCmp = 4000series-4051;
+IdModule  = Sockets_DIP:DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B062A;
+Reference = U6;
+ValeurCmp = 4000series-4051;
+IdModule  = Sockets_DIP:DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560BEE72;
+Reference = U7;
+ValeurCmp = 4000series-4068;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560B09BC;
+Reference = U8;
+ValeurCmp = 555_BJH;
+IdModule  = Sockets_DIP:DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /56065F18/560678FE;
+Reference = U10;
+ValeurCmp = REG-7805;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
+EndCmp
+
+EndListe

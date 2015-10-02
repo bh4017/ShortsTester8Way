@@ -58,7 +58,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title "ATV J1 Shorts Tester"
 Date "22 September 2015"
 Rev ""
