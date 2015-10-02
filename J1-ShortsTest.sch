@@ -10,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -39,7 +40,6 @@ LIBS:V_Passive
 LIBS:V_Regulator
 LIBS:V_Relay
 LIBS:V_Transistor
-LIBS:OpAmps-BJH
 LIBS:4000series-BJH
 LIBS:Basics-BJH
 LIBS:buzzer
@@ -52,12 +52,13 @@ LIBS:Oscillators-BJH
 LIBS:PowerSymbols-BJH
 LIBS:Relays
 LIBS:Transistors-BJH
+LIBS:OpAmps-BJH
 LIBS:J1-ShortsTest-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "ATV J1 Shorts Tester"
 Date "22 September 2015"
 Rev ""
