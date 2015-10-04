@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 36.949999 19.949999 132.050001 137.050001)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 8)
     (tracks 561)
     (zones 0)
     (modules 49)
@@ -61,7 +61,7 @@
     (pad_size 1.5 1.5)
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 37 20)
+    (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
@@ -661,12 +661,12 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Radial_D5_L6_P2.5 (layer F.Cu) (tedit 5610F061) (tstamp 560EA34A)
+  (module Capacitors_ThroughHole:C_Radial_D5_L6_P2.5 (layer F.Cu) (tedit 56111E20) (tstamp 560EA34A)
     (at 76.962 83.82 270)
     (descr "Radial Electrolytic Capacitor Diameter 5mm x Length 6mm, Pitch 2.5mm")
     (tags "Electrolytic Capacitor")
     (path /56065F18/560B1B39)
-    (fp_text reference C10 (at 1.25 -3.8 270) (layer F.SilkS)
+    (fp_text reference C10 (at -0.508 3.302 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CP (at 1.25 3.8 270) (layer F.Fab) hide
@@ -2063,10 +2063,6 @@
     )
   )
 
-  (target plus (at 34 140) (size 10) (width 0.1) (layer Edge.Cuts))
-  (target plus (at 135 140) (size 10) (width 0.1) (layer Edge.Cuts))
-  (target plus (at 135 17) (size 10) (width 0.1) (layer Edge.Cuts))
-  (target plus (at 34 17) (size 10) (width 0.1) (layer Edge.Cuts))
   (gr_text "8-way short-circuit\nDetection Board\nBJH" (at 45.974 122.174 90) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

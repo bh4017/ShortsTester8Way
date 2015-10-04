@@ -715,7 +715,7 @@ File,16
   { "X" : 55, "Y" : 4, "Shift" : "none", "Group" : 0 },
   { "X" : 55, "Y" : 28, "Shift" : "none", "Group" : 0 },
   { "X" : 55, "Y" : 23, "Shift" : "none", "Group" : 0 },
-  { "X" : 5, "Y" : 25, "Shift" : "none", "Group" : 0 },
+  { "X" : 8, "Y" : 25, "Shift" : "none", "Group" : 0 },
   { "X" : 55, "Y" : 22, "Shift" : "none", "Group" : 0 },
   { "X" : 8, "Y" : 26, "Shift" : "none", "Group" : 0 },
   { "X" : 8, "Y" : 27, "Shift" : "none", "Group" : 0 },
@@ -729,7 +729,7 @@ File,16
   { "X" : 55, "Y" : 24, "Shift" : "none", "Group" : 0 },
   { "X" : 33, "Y" : 34, "Shift" : "none", "Group" : 0 },
   { "X" : 15, "Y" : 13, "Shift" : "none", "Group" : 0 },
-  { "X" : 36, "Y" : 15, "Shift" : "none", "Group" : 0 },
+  { "X" : 37, "Y" : 15, "Shift" : "none", "Group" : 0 },
   { "X" : 8, "Y" : 22, "Shift" : "none", "Group" : 0 },
   { "X" : 36, "Y" : 11, "Shift" : "none", "Group" : 0 },
   { "X" : 29, "Y" : 30, "Shift" : "none", "Group" : 0 },
@@ -766,7 +766,7 @@ File,16
   { "X" : 37, "Y" : 29, "Shift" : "none", "Group" : 0 },
   { "X" : 37, "Y" : 30, "Shift" : "none", "Group" : 0 },
   { "X" : 42, "Y" : 7, "Shift" : "none", "Group" : 0 },
-  { "X" : 41, "Y" : 31, "Shift" : "none", "Group" : 0 },
+  { "X" : 37, "Y" : 31, "Shift" : "none", "Group" : 0 },
   { "X" : 57, "Y" : 19, "Shift" : "none", "Group" : 0 },
   { "X" : 37, "Y" : 21, "Shift" : "none", "Group" : 0 },
   { "X" : 42, "Y" : 6, "Shift" : "none", "Group" : 0 },
@@ -778,12 +778,9 @@ File,16
 "Wires" : [
 ],
 "Text" : [
+    { "Value" : "8-Way Connector Tester BJH", "X" : 31, "Y" : 0, "Angle" : 0, "Size" : "Large", "Group" : 0 }
 ],
 "Nets" : [
-    { "Node" : "~PASS\/FAIL", "Components" : [
-    { "Name" : "Q2", "Pins" : ["2"] },
-    { "Name" : "U7", "Pins" : ["13"] }
-    ] },
     { "Node" : "+5V", "Components" : [
     { "Name" : "C4", "Pins" : ["1"] },
     { "Name" : "C5", "Pins" : ["1"] },
@@ -813,6 +810,10 @@ File,16
     { "Name" : "U7", "Pins" : ["12", "14"] },
     { "Name" : "U8", "Pins" : ["8"] },
     { "Name" : "U10", "Pins" : ["3"] }
+    ] },
+    { "Node" : "~PASS\/FAIL", "Components" : [
+    { "Name" : "Q2", "Pins" : ["2"] },
+    { "Name" : "U7", "Pins" : ["13"] }
     ] },
     { "Node" : "1mA_ConstCurrent", "Components" : [
     { "Name" : "R1", "Pins" : ["1"] },
